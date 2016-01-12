@@ -67,7 +67,7 @@ public class WhistleFactory: UIViewController {
     moveWhistleWindowToFront()
   }
   
-  func moveWindowToFront() {
+  func moveWhistleWindowToFront() {
     let currentStatusBarStyle = UIApplication.sharedApplication().statusBarStyle
     whistleWindow.windowLevel = UIWindowLevelStatusBar
     UIApplication.sharedApplication().setStatusBarStyle(currentStatusBarStyle, animated: false)
